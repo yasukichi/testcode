@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/work/github/testcode/Unreal Projects/blue_print_quick/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/work/github/testcode/Unreal Projects/blue_print_quick/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/JV/PKH7F0MNKTVTMDODT0W8FX.uasset",
+				"C:/work/github/testcode/Unreal Projects/blue_print_quick/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset"
+			]
+		}
+	]
+}
