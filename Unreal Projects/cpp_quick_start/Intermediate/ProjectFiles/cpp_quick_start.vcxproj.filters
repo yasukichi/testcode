@@ -42,4 +42,14 @@
       <Filter>Source\cpp_quick_start</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\cpp_quick_start\FloatingActor.cpp">
+      <Filter>Source\cpp_quick_start</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\cpp_quick_start\FloatingActor.h">
+      <Filter>Source\cpp_quick_start</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
