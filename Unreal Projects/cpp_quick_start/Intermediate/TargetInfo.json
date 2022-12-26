@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "cpp_quick_start",
+			"Path": "C:\\work\\github\\testcode\\Unreal Projects\\cpp_quick_start\\Source\\cpp_quick_start.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "cpp_quick_startEditor",
+			"Path": "C:\\work\\github\\testcode\\Unreal Projects\\cpp_quick_start\\Source\\cpp_quick_startEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
