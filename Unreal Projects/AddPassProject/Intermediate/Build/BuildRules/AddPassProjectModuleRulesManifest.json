@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\work\\github\\testcode\\Unreal Projects\\AddPassProject\\Source\\AddPassProject\\AddPassProject.Build.cs",
+		"C:\\work\\github\\testcode\\Unreal Projects\\AddPassProject\\Plugins\\PostOpaqueDrawTest\\Source\\PostOpaqueDrawTest\\PostOpaqueDrawTest.Build.cs",
+		"C:\\work\\github\\testcode\\Unreal Projects\\AddPassProject\\Source\\AddPassProject.Target.cs",
+		"C:\\work\\github\\testcode\\Unreal Projects\\AddPassProject\\Source\\AddPassProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

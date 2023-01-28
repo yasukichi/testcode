@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AddPassProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2EE75BE3-E2F3-48A7-84E2-7DFF2A039EB6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AddPassProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AddPassProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D599504D-8E4F-4CA7-A4C9-76A1845013B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{D761C479-633D-40CC-B612-C8649BFB9FD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PostOpaqueDrawTest">
+      <UniqueIdentifier>{233E0221-C611-49F1-9151-495472E192B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PostOpaqueDrawTest\Source">
+      <UniqueIdentifier>{56F466F9-7F74-4CF8-B000-C24B80FAD707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest">
+      <UniqueIdentifier>{E15943BA-27EC-4ACF-BFA3-44ADB88E0471}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\PostOpaqueDrawTest.Build.cs">
+      <Filter>Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest</Filter>
+    </None>
+    <Filter Include="Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Private">
+      <UniqueIdentifier>{0E3A19F9-D9CE-4425-AC6A-8A2654CAB67E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Private\PostOpaqueDrawTest.cpp">
+      <Filter>Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Private\PostOpaqueDrawTestBPLibrary.cpp">
+      <Filter>Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Public">
+      <UniqueIdentifier>{A38C6782-4C3D-41CD-B615-BDC361534534}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Public\PostOpaqueDrawTest.h">
+      <Filter>Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Public\PostOpaqueDrawTestBPLibrary.h">
+      <Filter>Plugins\PostOpaqueDrawTest\Source\PostOpaqueDrawTest\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\PostOpaqueDrawTest\PostOpaqueDrawTest.uplugin">
+      <Filter>Plugins\PostOpaqueDrawTest</Filter>
+    </None>
+    <Filter Include="Plugins\PostOpaqueDrawTest\Resources">
+      <UniqueIdentifier>{7506F370-9CF0-4528-90CC-64A4146B753C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PostOpaqueDrawTest\Resources\Icon128.png">
+      <Filter>Plugins\PostOpaqueDrawTest\Resources</Filter>
+    </None>
+    <Filter Include="Source\AddPassProject">
+      <UniqueIdentifier>{9E2FF675-7743-4230-8924-627E5769D4B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AddPassProject\AddPassProject.Build.cs">
+      <Filter>Source\AddPassProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AddPassProject\AddPassProject.cpp">
+      <Filter>Source\AddPassProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AddPassProject\AddPassProject.h">
+      <Filter>Source\AddPassProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AddPassProject\AddPassProjectGameModeBase.cpp">
+      <Filter>Source\AddPassProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AddPassProject\AddPassProjectGameModeBase.h">
+      <Filter>Source\AddPassProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

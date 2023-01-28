@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AddPassProject",
+			"Path": "C:\\work\\github\\testcode\\Unreal Projects\\AddPassProject\\Source\\AddPassProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AddPassProjectEditor",
+			"Path": "C:\\work\\github\\testcode\\Unreal Projects\\AddPassProject\\Source\\AddPassProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
