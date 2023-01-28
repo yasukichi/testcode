@@ -1,0 +1,23 @@
+#pragma once
+
+#include "/Engine/Private/Common.ush"
+#include "/Engine/Private/DeferredShadingCommon.ush"
+
+void TestPS(
+	in float4 UVAndScreenPos : TEXCOORD0,
+	in float4 SVPos : SV_POSITION,
+	out float4 OutColor : SV_Target0)
+{
+	float2 ScreenUV = SvPositionToBufferUV(SVPos); // UVを取得
+	float3 Normal0 = GetGBufferData(ScreenUV).WorldNormal; // 法線取得
+	// 法線アウトラインを計算（適当）
+	float ndlsum =
+		saturate(dot(Normal0, GetGBufferData(ScreenUV + float2(-1, -1) * View.BufferSizeAndInvSize.zw).WorldNormal)) +
+		saturate(dot(Normal0, GetGBufferData(ScreenUV + float2(-1, 0) * View.BufferSizeAndInvSize.zw).WorldNormal)) +
+		saturate(dot(Normal0, GetGBufferData(ScreenUV + float2(1, 0) * View.BufferSizeAndInvSize.zw).WorldNormal)) +
+		saturate(dot(Normal0, GetGBufferData(ScreenUV + float2(1, 1) * View.BufferSizeAndInvSize.zw).WorldNormal));
+	float outline = smoothstep(0.9, 1.0, (ndlsum * 0.25));
+
+	// アウトラインを半透明描画で合成
+	OutColor = float4(1, 0, 0, 1 - outline);
+}
