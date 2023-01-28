@@ -17,7 +17,7 @@ public class PostOpaqueDrawTest : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				// ... add other private include paths required here ...
+				"C:/Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/Renderer/Private"
 			}
 			);
 			
